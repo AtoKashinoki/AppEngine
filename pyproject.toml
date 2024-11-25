@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=68.2.0"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "AppEngine"
+version = "0.0.0"
+description = "This module contain many processes for developing applications."
+
+readme = "README.md"
+license = {file="LICENSE"}
+
+requires-python = ">=3.10"
+dependencies = [
+   "CodingTools@git+https://github.com/AtoKashinoki/CodingTools2.git"
+]
+
+authors = [
+   {name="AtoKashinoki", email="AtoKashinoki@gmail.com"}
+]
+classifiers = [
+   "Programming Language :: Python :: Python3.10",
+   "License :: OSI Approved :: MITLicense",
+   "Operating System :: Microsoft :: Windows :: Windows11"
+]
+
+
+[project.urls]
+"Homepage" = "https://github.com/AtoKashinoki/AppEngine.git"
+"Bug Tracker" = "https://github.com/AtoKashinoki/AppEngine.git/Issues"
+
+
+[project.scripts]
